@@ -1,0 +1,308 @@
+.header {
+    height: 84px;
+    display: flex;
+    flex-direction: column;
+}
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 147px;
+    padding-left: 147px;
+}
+.logo {
+    width: 110px;
+    height: 43px;
+}
+.search {
+    width: 436px;
+    height: 33px;
+    background-color: #ffffff;
+    border: 1px solid #e1e1e1;
+    display: flex;
+    justify-content: space-between;
+}
+.search input {
+    border: none;
+    width: 405px;
+}
+.search-icon {
+    cursor: pointer;
+    margin-right: 9px;
+}
+.basket {
+    display: flex;
+    align-items: center;
+}
+.basket-icon {
+    cursor: pointer;
+}
+.basket p {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 33px;
+    line-height: 19px;
+    color: #a1a1a1;
+    margin-left: 17px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 36px;
+    background-color: #4ccfc1;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.07);
+    padding-right: 147px;
+    padding-left: 147px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+.nav-link {
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 21px;
+    line-height: 19px;
+    color: #ffffff;
+}
+.stick {
+    height: 18px;
+    border: solid 1px #ffffff;
+}
+.scrolling {
+    background-color: #3bc1b8;
+    height: 340px;
+    margin-top: 36px;
+    display: flex;
+    justify-content: center;
+    padding-top: 65px;
+}
+.scrolling-img {
+    margin-right: 50px;
+}
+.T-shirt {
+    height: 325px;
+}
+.main-text {
+    margin-left: 50px;
+}
+.scrolling-title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 61px;
+    line-height: 54px;
+    color: #ffffff;
+    width: 305px;
+    margin-bottom: 20px;
+}
+.scrolling-text {
+    font-size: 17px;
+    line-height: 28px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    width: 402px;
+    margin-bottom: 30px;
+}
+.shop-now-btn {
+    width: 139px;
+    height: 46px;
+    border: 3px solid #ffffff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+.shop-now {
+    text-decoration: none;
+    font-size: 27px;
+    line-height: 19px;
+    color: #ffffff;
+    font-family: 'Bebas Neue', cursive;
+}
+.points {
+    height: 9px;
+    display: flex;
+    justify-content: center;
+    background-color: #3bc1b8;
+    padding-bottom: 34px;
+}
+.point {
+    width: 9px;
+    height: 9px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.second-scrolling {
+    height: 190px;
+    background-color: #ffffff;
+    box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.12);
+    display: flex;
+    justify-content: center;
+}
+.scrolling-card {
+    width: 340px;
+    display: flex;
+    border-right: 1px #e7e7e7 solid;
+    border-left: 1px #e7e7e7 solid;
+}
+.left {
+    margin-right: 160px;
+    cursor: pointer;
+}
+.right {
+    margin-left: 160px;
+    cursor: pointer;
+}
+.scrolling-product {
+    height: 130px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 20px;
+}
+.scrollin-card-txt {
+    width: 75px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: 20px;
+}
+.product-name {
+    font-size: 27px;
+    line-height: 25px;
+    color: #afafaf;
+    font-family: 'Bebas Neue', cursive;
+}
+.shop-btn {
+    width: 59px;
+    height: 32px;
+    background-color: #3cc395;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.shop-link {
+    font-size: 19px;
+    line-height: 19px;
+    color: #ffffff;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+}
+.featured-title {
+    background-color: #39c4b5;
+    padding-top: 23px;
+    padding-bottom: 21px;
+}
+.featured-products {
+    display: flex;
+    justify-content: center;
+}
+.featured-title h2 {
+    margin-left: 186px;
+    font-size: 31px;
+    line-height: 25px;
+    color: #ffffff;
+    font-family: 'Bebas Neue', cursive;
+}
+.featured-cards {
+    height: 730px;
+    width: 880px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+}
+.featured-card {
+    width: 253px;
+    height: 260px;
+    border-bottom: 5px #3cc395 solid;
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.featured-product {
+    height: 136px;
+    margin-bottom: 22px;
+}
+.featured-card p {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 27px;
+    line-height: 25px;
+    color: #afafaf;
+}
+.shopping {
+    display: flex;
+    margin-top: 19px;
+}
+.buy-now-btn {
+    width: 74px;
+    height: 34px;
+    background-color: #3cc395;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.buy-now-link{
+    text-decoration: none;
+    font-size: 20.2px;
+    line-height: 20px;
+    color: #ffffff;
+    font-family: 'Bebas Neue', cursive;
+}
+.footer {
+    height: 383px;
+    background-color: #3cc3b5;
+    display: flex;
+    justify-content: center;
+}
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 880px;
+    margin-top: 43px;
+}
+.secondary-footer-nav {
+    display: flex;
+    flex-direction: column;
+}
+.secondary-footer-nav h3 {
+    font-size: 27px;
+    line-height: 25px;
+    color: #ffffff;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 27px;
+}
+.footer-link {
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 28px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+.copyright {
+    height: 46px;
+    background-color: #2da89b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copyright a {
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 28px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Open Sans', sans-serif; */
